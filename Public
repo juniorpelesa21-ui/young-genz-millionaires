@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Young GenZ Millionaires</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Young GenZ Millionaires</h1>
+    <p>Connect. Learn. Grow Together.</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to Young GenZ Millionaires</h2>
+      <p>A community for young people interested in entrepreneurship,
+      skills development and financial education.</p>
+      <a href="#register" class="button">Join Our Community</a>
+    </section>
+
+    <section id="register">
+      <h2>Registration Interest</h2>
+      <form id="joinForm">
+        <label>Full name</label>
+        <input type="text" placeholder="Enter your full name" required>
+        <label>Email address</label>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Submit Interest</button>
+      </form>
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <footer>Young GenZ Millionaires</footer>
+  <script src="app.js"></script>
+</body>
+</html>
