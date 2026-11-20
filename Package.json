@@ -1,0 +1,14 @@
+
+{
+  "name": "young-genz-millionaires",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Young GenZ Millionaires website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
